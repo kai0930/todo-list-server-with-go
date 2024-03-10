@@ -12,26 +12,37 @@ type JwtCustomClaims struct {
 }
 
 type Account struct {
-	ID       uuid.UUID
-	Email    string
-	Password string
+	ID       uuid.UUID `json:"id" gorm:"primary_key"`
+	Email    string    `json:"email"`
+	Password string    `json:"password"`
 }
 
 type Group struct {
-	ID   uuid.UUID
-	Name string
+	ID   uuid.UUID `json:"id" gorm:"primary_key"`
+	Name string    `json:"name"`
 }
 
 type Todo struct {
-	ID          uuid.UUID
-	Title       string
-	description string
-	isCompleted bool
-	dueDate     time.Time
-	GroupID     uuid.UUID
+	ID          uuid.UUID `json:"id" gorm:"primary_key"`
+	Title       string    `json:"title"`
+	Description string    `json:"description"`
+	IsCompleted bool      `json:"isCompleted"`
+	DueDate     time.Time `json:"dueDate"`
+	GroupID     uuid.UUID `json:"groupID"`
 }
 
 type UserGroup struct {
-	UserID  uuid.UUID
-	GroupID uuid.UUID
+	UserID  uuid.UUID `json:"userID" gorm:"foreignKey:UserID:references:ID"`
+	GroupID uuid.UUID `json:"groupID" gorm:"foreignKey:GroupID:references:ID"`
+}
+type GroupRequest struct {
+	Name string `json:"name"`
+}
+
+type TodoRequest struct {
+	Title       string    `json:"title"`
+	Description string    `json:"description"`
+	IsCompleted bool      `json:"isCompleted"`
+	DueDate     time.Time `json:"dueDate"`
+	GroupID     uuid.UUID `json:"groupID"`
 }

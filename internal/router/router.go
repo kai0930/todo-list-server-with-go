@@ -42,6 +42,13 @@ func SetRouter(e *echo.Echo) error {
 		}
 		privateGroup.Use(echojwt.WithConfig(config))
 		privateGroup.GET("/todo", GetTodo)
+		privateGroup.POST("/todo", PostTodo)
+		privateGroup.PUT("/todo/:id", PutTodo)
+		privateGroup.DELETE("/todo/:id", DeleteTodo)
+		privateGroup.GET("/group", GetGroup)
+		privateGroup.POST("/group", PostGroup)
+		privateGroup.PUT("/group/:id", PutGroup)
+		privateGroup.DELETE("/group/:id", DeleteGroup)
 	}
 
 	err := e.Start(":8000")
