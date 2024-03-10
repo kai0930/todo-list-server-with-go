@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2d52ccaa-2a26-467a-a3c9-4429de5458a3" name="変更" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/copilot/chatSessions/00000000000.xd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/copilot/chatSessions/blobs/version" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/copilot/chatSessions/xd.lck" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/todo-list-server-with-go.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/crypto/crypto.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/model/auth.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/model/db.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/model/type.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/router/auth.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/router/router.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/router/todo.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/data/#innodb_redo/#ib_redo10" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/data/#innodb_redo/#ib_redo32_tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/data/#innodb_redo/#ib_redo33_tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/data/#innodb_redo/#ib_redo34_tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/data/#innodb_redo/#ib_redo35_tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/data/#innodb_redo/#ib_redo36_tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/data/#innodb_redo/#ib_redo37_tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/data/#innodb_redo/#ib_redo38_tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/data/#innodb_redo/#ib_redo39_tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/data/#innodb_redo/#ib_redo40_tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/data/#innodb_redo/#ib_redo9" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/data/binlog.000001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/data/binlog.000002" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/data/binlog.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/data/ca-key.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/data/ca.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/data/client-cert.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/data/client-key.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/data/ib_buffer_pool" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/data/mysql.sock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/data/mysql/general_log.CSM" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/data/mysql/general_log.CSV" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/data/mysql/general_log_215.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/data/mysql/slow_log.CSM" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/data/mysql/slow_log.CSV" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/data/mysql/slow_log_216.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/data/performance_schema/accounts_147.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/data/performance_schema/binary_log_trans_191.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/data/performance_schema/data_lock_waits_163.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/data/performance_schema/data_locks_162.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/data/performance_schema/events_errors_su_141.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/data/performance_schema/events_errors_su_142.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/data/performance_schema/events_errors_su_143.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/data/performance_schema/events_errors_su_144.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/data/performance_schema/events_errors_su_145.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/data/performance_schema/events_transacti_140.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/data/performance_schema/global_status_183.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/data/performance_schema/global_variables_186.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/data/performance_schema/hosts_148.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/data/performance_schema/keyring_componen_193.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/data/performance_schema/keyring_keys_154.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/data/performance_schema/log_status_176.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/data/performance_schema/memory_summary_b_156.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/data/performance_schema/memory_summary_b_157.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/data/performance_schema/memory_summary_b_158.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/data/performance_schema/memory_summary_b_159.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/data/performance_schema/memory_summary_g_155.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/data/performance_schema/metadata_locks_161.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/data/performance_schema/persisted_variab_189.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/data/performance_schema/prepared_stateme_177.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/data/performance_schema/replication_appl_167.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/data/performance_schema/replication_appl_168.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/data/performance_schema/replication_appl_169.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/data/performance_schema/replication_appl_170.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/data/performance_schema/replication_appl_172.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/data/performance_schema/replication_appl_173.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/data/performance_schema/replication_asyn_174.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/data/performance_schema/replication_asyn_175.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/data/performance_schema/replication_conn_164.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/data/performance_schema/replication_conn_166.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/data/performance_schema/replication_grou_165.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/data/performance_schema/replication_grou_171.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/data/performance_schema/session_account__153.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/data/performance_schema/session_connect__152.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/data/performance_schema/session_status_184.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/data/performance_schema/session_variable_187.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/data/performance_schema/socket_instances_149.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/data/performance_schema/socket_summary_b_150.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/data/performance_schema/socket_summary_b_151.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/data/performance_schema/status_by_accoun_179.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/data/performance_schema/status_by_host_180.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/data/performance_schema/status_by_thread_181.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/data/performance_schema/status_by_user_182.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/data/performance_schema/table_handles_160.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/data/performance_schema/tls_channel_stat_192.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/data/performance_schema/user_defined_fun_190.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/data/performance_schema/user_variables_b_178.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/data/performance_schema/users_146.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/data/performance_schema/variables_by_thr_185.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/data/performance_schema/variables_info_188.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/data/private_key.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/data/public_key.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/data/server-cert.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/data/server-key.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/data/sys/sys_config.ibd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/data/todolist/accounts.ibd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/data/todolist/groups.ibd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/data/todolist/todos.ibd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/data/todolist/user_groups.ibd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpmyadmin/sessions/sess_535cf039b709e089e2697a10131764ca" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Swagger" />
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" url="file:///usr/local/go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2dV2BxxXwsEZUUSd9YmhITLYY5p" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "DefaultGoTemplateProperty": "Go File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "RunOnceActivity.go.modules.automatic.dependencies.download": "true",
+    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
+    "git-widget-placeholder": "main",
+    "go.import.settings.migrated": "true",
+    "go.sdk.automatically.set": "true",
+    "last_opened_file_path": "/Users/kai/go/src/todo-list-server-with-go",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-gosdk-2946fb9b3188-155fe4b6e3a0-org.jetbrains.plugins.go.sharedIndexes.bundled-GO-233.14475.38" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="アプリケーションレベル" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="VgoProject">
+    <settings-migrated>true</settings-migrated>
+  </component>
+</project>
