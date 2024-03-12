@@ -28,7 +28,7 @@ func PostTodo(c echo.Context) error {
 	if err != nil {
 		return c.JSON(http.StatusUnauthorized, "Unauthorized")
 	}
-	var req model.TodoRequest
+	var req model.CreateTodoRequest
 	if err := c.Bind(&req); err != nil {
 		return c.JSON(http.StatusBadRequest, "Invalid request")
 	}
@@ -46,7 +46,7 @@ func PutTodo(c echo.Context) error {
 	if err != nil {
 		return c.JSON(http.StatusUnauthorized, "Unauthorized")
 	}
-	var req model.TodoRequest
+	var req model.PutTodoRequest
 	if err := c.Bind(&req); err != nil {
 		return c.JSON(http.StatusBadRequest, "Invalid request")
 	}

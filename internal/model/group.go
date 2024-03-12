@@ -25,8 +25,14 @@ func GetGroups(id uuid.UUID) ([]Group, error) {
 func CreateGroup(id uuid.UUID, group GroupRequest) (Group, error) {
 	newId := uuid.New()
 	newGroup := Group{
-		ID:   newId,
-		Name: group.Name,
+		ID: newId,
+		Name: func() string {
+			if group.Name != nil {
+				return *group.Name
+			} else {
+				return ""
+			}
+		}(),
 	}
 	newUserGroup := UserGroup{
 		UserID:  id,
@@ -60,7 +66,13 @@ func PutGroup(id uuid.UUID, groupID uuid.UUID, group GroupRequest) (Group, error
 		return Group{}, err
 	}
 	// 変更を加える
-	targetGroup.Name = group.Name
+	targetGroup.Name = func() string {
+		if group.Name != nil {
+			return *group.Name
+		} else {
+			return targetGroup.Name
+		}
+	}()
 	db.Save(&targetGroup)
 
 	return targetGroup, nil

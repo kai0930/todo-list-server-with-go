@@ -36,13 +36,21 @@ type UserGroup struct {
 	GroupID uuid.UUID `json:"groupID" gorm:"foreignKey:GroupID:references:ID"`
 }
 type GroupRequest struct {
-	Name string `json:"name"`
+	Name *string `json:"name"`
 }
 
-type TodoRequest struct {
-	Title       string    `json:"title"`
-	Description string    `json:"description"`
-	IsCompleted bool      `json:"isCompleted"`
-	DueDate     time.Time `json:"dueDate"`
-	GroupID     uuid.UUID `json:"groupID"`
+type CreateTodoRequest struct {
+	Title       *string    `json:"title"`
+	Description *string    `json:"description"`
+	IsCompleted *bool      `json:"isCompleted"`
+	DueDate     *time.Time `json:"dueDate"`
+	GroupID     uuid.UUID  `json:"groupID"`
+}
+
+type PutTodoRequest struct {
+	Title       *string    `json:"title"`
+	Description *string    `json:"description"`
+	IsCompleted *bool      `json:"isCompleted"`
+	DueDate     *time.Time `json:"dueDate"`
+	GroupID     *uuid.UUID `json:"groupID"`
 }

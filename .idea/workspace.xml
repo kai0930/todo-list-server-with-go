@@ -5,19 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2d52ccaa-2a26-467a-a3c9-4429de5458a3" name="変更" comment="">
-      <change afterPath="$PROJECT_DIR$/internal/model/group.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/internal/model/todo.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/internal/router/group.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/internal/router/jwt.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysql/data/#innodb_redo/#ib_redo41_tmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysql/data/binlog.000003" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/data/binlog.000004" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/copilot/chatSessions/00000000000.xd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/copilot/chatSessions/00000000000.xd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/copilot/chatSessions/xd.lck" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/copilot/chatSessions/xd.lck" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/model/group.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/model/group.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/model/todo.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/model/todo.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/internal/model/type.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/model/type.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/internal/router/router.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/router/router.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/internal/router/todo.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/router/todo.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mysql/data/#ib_16384_0.dblwr" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/data/#ib_16384_0.dblwr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mysql/data/#innodb_redo/#ib_redo10" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/data/#innodb_redo/#ib_redo10" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/data/#innodb_redo/#ib_redo9" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/mysql/data/#innodb_temp/temp_1.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/data/#innodb_temp/temp_1.ibt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mysql/data/#innodb_temp/temp_10.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/data/#innodb_temp/temp_10.ibt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mysql/data/#innodb_temp/temp_2.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/data/#innodb_temp/temp_2.ibt" afterDir="false" />
@@ -28,12 +25,13 @@
       <change beforePath="$PROJECT_DIR$/mysql/data/#innodb_temp/temp_7.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/data/#innodb_temp/temp_7.ibt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mysql/data/#innodb_temp/temp_8.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/data/#innodb_temp/temp_8.ibt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mysql/data/#innodb_temp/temp_9.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/data/#innodb_temp/temp_9.ibt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/data/binlog.000002" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/data/binlog.000002" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysql/data/binlog.000003" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/data/binlog.000003" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mysql/data/binlog.index" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/data/binlog.index" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mysql/data/ib_buffer_pool" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/data/ib_buffer_pool" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mysql/data/ibdata1" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/data/ibdata1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mysql/data/ibtmp1" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/data/ibtmp1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mysql/data/mysql.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/data/mysql.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysql/data/todolist/todos.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/data/todolist/todos.ibd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mysql/data/undo_001" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/data/undo_001" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mysql/data/undo_002" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/data/undo_002" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/phpmyadmin/sessions/sess_535cf039b709e089e2697a10131764ca" beforeDir="false" afterPath="$PROJECT_DIR$/phpmyadmin/sessions/sess_535cf039b709e089e2697a10131764ca" afterDir="false" />
@@ -69,27 +67,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "DefaultGoTemplateProperty": "Go File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.go.formatter.settings.were.checked": "true",
-    "RunOnceActivity.go.migrated.go.modules.settings": "true",
-    "RunOnceActivity.go.modules.automatic.dependencies.download": "true",
-    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
-    "git-widget-placeholder": "1-todoのcrudを実装",
-    "go.import.settings.migrated": "true",
-    "go.sdk.automatically.set": "true",
-    "last_opened_file_path": "/Users/kai/go/src/todo-list-server-with-go",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultGoTemplateProperty&quot;: &quot;Go File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.modules.automatic.dependencies.download&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;1-todoのcrudを実装&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;go.sdk.automatically.set&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/kai/go/src/todo-list-server-with-go&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
